@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Profile Card</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <article data-testid="test-profile-card" class="profile-card">
+            <header>
+                <h2 data-testid="test-user-name">Patience Onyejonchi Okwori</h2>
+            </header>
+
+            <figure>
+                <img
+                    src="profile.jpeg"
+                    alt="Profile Picture"
+                    data-testid="test-user-avatar">
+                    <figcaption>Frontend Developer</figcaption>
+            </figure>
+
+
+            <p data-testid="test-user-bio">
+                A Dedicated and passionate Frontend Developer and designer from Nigeria with great skills in Html, Css, Javascript, React and Vue.js 
+            </p>
+
+            <p>
+                Current Time:
+                <span data-testid="test-user-time" id="currentTime"></span>
+            </p>
+
+            <nav data-testid="test-user-social-links">
+                <ul>
+                    <li><a href="https://twitter.com/">Twitter</a></li>
+                    <li><a href="https://https://github.com/patienceokwori">Github</a></li>
+                    <li><a href="https://www.linkedin.com/patienceokwori">Linkedin</a></li>
+
+
+
+                </ul>
+            </nav>
+
+            <section>
+                <h3>Hobbies</h3>
+                <ul data-testid="test-user-hobbies">
+                    <li>Coding</li>
+                    <li>Reading</li>
+                    <li>Surfing the net</li>
+                </ul>
+            </section>
+
+
+            <section>
+                <h3>Dislikes</h3>
+                <ul data-testid="test-user-dislikes">
+                    <li>Procrastination</li>
+                    <li>Laziness</li>
+                    <li>Dishonesty</li>
+                </ul>
+            </section>
+        </article>
+        <script src="script.js"></script>
+    </body>
+</html>
