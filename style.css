@@ -1,24 +1,84 @@
 body {
     font-family: "Georgia", serif;
-    background-color: #1b55c2;
+    background-color: #1032ca;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    height: 100vh;
     margin: 0;
+    
 }
 
 .profile-card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f0f1f3;
+    background-color: #9cc3e2;
     border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
     padding: 20px;
     max-width: 600px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     gap: 1rem;
 
+}
+
+form {
+    font: 1em "Georgia", serif;
+    max-width: 320px;
+}
+
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(228, 232, 236);
+    max-width: 400px;
+    border-radius: 12px;
+    padding: 20px;
+
+
+}
+
+.contact-card input,
+.contact-card textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+.about-container {
+background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 700px;
+  width: 90%;
+  margin: 40px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-container section {
+    margin-bottom: 1.5rem;
+}
+
+.about-container h2 {
+    color: #274c77
+}
+
+.navigation-bar {
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    padding: 15px;
+}
+
+.about-avatar {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
 }
 
 figure {
@@ -51,7 +111,7 @@ nav ul {
 
 a {
     text-decoration: none;
-    color: #274C77;
+    color: #eff2f5;
     font-weight: bold;
 }
 
